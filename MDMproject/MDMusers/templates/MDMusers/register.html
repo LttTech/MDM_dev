@@ -1,0 +1,31 @@
+{% extends "MDMapp/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-4">
+            <form method="POST">
+                {% csrf_token %}
+                <fieldset class="form-group">
+                    {{ form|crispy }}
+                </fieldset>
+                <div class="form-group">
+                    <!-- <button class="btn btn-outline-info" type="submit">Sign Up</button> -->
+                    <button class="form-control btn btn-primary submit px-3" type="submit">Sign Up</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- <div class="content-section">
+    <form method="POST">
+        {% csrf_token %}
+        <fieldset class="form-group">
+            {{ form|crispy }}
+        </fieldset>
+        <div class="form-group">
+            <button class="btn btn-outline-info" type="submit">Sign Up</button>
+        </div>
+    </form>
+</div> -->
+{% endblock content %}
