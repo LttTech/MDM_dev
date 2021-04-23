@@ -1,0 +1,15 @@
+{% extends 'MDMapp/base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+<form method="POST">
+    <div class = "container">
+        {% csrf_token %}
+        {{ user_form }}
+        <div></div>
+        {{ cell_form }}
+        <div>
+            <button class="btn btn-outline-info" type="submit">Submit</button>
+        </div>
+    </div>
+</form>
+{% endblock content %}

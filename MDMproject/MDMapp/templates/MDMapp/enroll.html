@@ -1,0 +1,24 @@
+{% extends 'MDMapp/base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+<form class="form" method="POST">
+    <div class = "row">
+        {% for field in user_form %}
+        <div class = "col-md-6">
+            {{ field|as_crispy_field }}
+        </div>
+        {% endfor %}
+        {% csrf_token %}
+    </div>
+    <div class = "row">
+        {% for field in cell_form %}
+        <div class = "col-md-6">
+            {{ field|as_crispy_field }}
+        </div>
+        {% endfor %}
+        {% csrf_token %}
+    </div>
+    <button type="submit">Submit</button>
+
+</form>
+{% endblock content %}
