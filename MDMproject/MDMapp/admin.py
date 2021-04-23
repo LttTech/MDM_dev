@@ -1,3 +1,5 @@
 from django.contrib import admin
+from .models import UserCapture, CellphoneCapture
 
-# Register your models here.
+admin.site.register(UserCapture)
+admin.site.register(CellphoneCapture)
