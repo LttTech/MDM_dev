@@ -2,32 +2,65 @@
 Mobile Device Management (MDM)
 a web application to help manage, track and administer mobile devices in a corporate environment.
 The Web app is built using  the django framework.
+00
 
-## Next Steps
-1. Create a virtual environment to host the project
-2. use the *requirements.txt* file to install all dependencies
-3. from the terminal cd into **MDMproject** and run the follow command : `python manage.py makemigrations` press enter after
-4. run this command: `python manage.py migrate` and press enter
+# How to setup Django
+1. Create a virtual(Pipenv, virtualenv) environment to host the project.
+2. From the root directory run `pip install -r requirements.txt` to install all dependencies.
+    - django
+    - pillow
+    - django-crispy-forms
+     
+3. After installation of *requirements.txt* run `django-admin createproject`, register **admin** by filling in the needed details. 
+4. From the terminal cd into **MDMproject** and run the follow command : `python manage.py makemigrations` press enter after
+5. Run this command: `python manage.py migrate` and press enter
 
 after perfomring the steps above run this command: `python manage.py runserver` to start the local buid-in django webserver
 
-## To pull or commit?
-1. *pull* from the **main** branch
-2. *commit* new work to the **dev_code** branch where a moderator will review before commiting to **main**
-3. sign your code when you make commits
-4. add clear comments to ur commits 
+# Github info
 
-### Task List
-- [ ] create theme and color schem for app
-- [ ] Create bg img's
-- [ ] Create forms to enroll devices
-- [ ] Create logo for app
-- [ ] Fix profile page
-- [ ] Fix text on login and register page 
+## How to clone the project
+1. Form the pycharm new project window select **get from VCS**
+2. Make sure you are logged into Github (check settings)
+3. There several methods you can use to get the project:
+- Git (CLI)
+- Github Desktop app
+- download zipped folder from Github
+- Use Pycharm VCS options
+
+## Commit, Pull, Push
+1. The initial *pull* should be performed from the **main** branch
+   - *never pull from dev_code*
+2. *commit* and *push* new work to the **dev_code** branch
+3. sign your code when you make commits
+4. add clear comments to ur commits
+
+# Task List
+### Mncedisi
+1. - [ ] Design logo
+2. - [ ] Theme and color schem
+3. - [ ] Design bg img for landing page
+4. - [ ] Design main bg of site
+
+### Refilwe
+1. - [ ] Fix profile page
+2. - [ ] Fix text on login and register page
+
+### Letlaka
+1. - [x] Code forms to enroll devices
+2. - [ ] Code Dashboard view
+3. - [ ] Code dropdown for Dept, Phone Manu, Phone model
+4. - [ ] Code inventory tab/page
+
+### Tshepiso
+1. - [ ] Find platform to host application
+
+### Palesa
+1. - [ ] Create project plan
 
 ## Helpful links
 
-### Download / Install 
+### Download / Install
 If there is a need to manually install any of the dependencies links are below:
 1. [Python](https://www.python.org/)
 2. [Django](https://www.djangoproject.com/download/)
