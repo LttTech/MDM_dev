@@ -19,7 +19,7 @@ after performing the steps above run this command: `python manage.py runserver` 
 
 # GitHub info
 
-## How to clone the project
+### How to clone the project
 1. Form the pycharm new project window select **get from VCS**
 2. Make sure you are logged into GitHub (check settings)
 3. There several methods you can use to get the project:
@@ -28,7 +28,7 @@ after performing the steps above run this command: `python manage.py runserver` 
 - download zipped folder from GitHub
 - Use Pycharm VCS options
 
-## Commit, Pull, Push
+### Commit, Pull, Push
 1. The initial *pull* should be performed from the **main** branch
    - *never pull from dev_code*
 2. *commit* and *push* new work to the **dev_code** branch
@@ -58,7 +58,7 @@ after performing the steps above run this command: `python manage.py runserver` 
 ### Palesa
 1. - [ ] Create project plan
 
-## Helpful links
+# Helpful links
 
 ### Download / Install
 If there is a need to manually install any of the dependencies links are below:
