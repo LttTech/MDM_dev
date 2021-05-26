@@ -4,7 +4,7 @@ a web application to help manage, track and administer mobile devices in a corpo
 The Web app is built using  the django framework.
 00
 
-# How to setup Django
+# How to set up Django
 1. Create a virtual(Pipenv, virtualenv) environment to host the project.
 2. From the root directory run `pip install -r requirements.txt` to install all dependencies.
     - django
@@ -15,17 +15,17 @@ The Web app is built using  the django framework.
 4. From the terminal cd into **MDMproject** and run the follow command : `python manage.py makemigrations` press enter after
 5. Run this command: `python manage.py migrate` and press enter
 
-after perfomring the steps above run this command: `python manage.py runserver` to start the local buid-in django webserver
+after performing the steps above run this command: `python manage.py runserver` to start the local built-in django webserver
 
-# Github info
+# GitHub info
 
 ### How to clone the project
 1. Form the pycharm new project window select **get from VCS**
-2. Make sure you are logged into Github (check settings)
+2. Make sure you are logged into GitHub (check settings)
 3. There several methods you can use to get the project:
 - Git (CLI)
 - Github Desktop app
-- download zipped folder from Github
+- download zipped folder from GitHub
 - Use Pycharm VCS options
 
 ### Commit, Pull, Push
@@ -38,7 +38,7 @@ after perfomring the steps above run this command: `python manage.py runserver` 
 # Task List
 ### Mncedisi
 1. - [ ] Design logo
-2. - [ ] Theme and color schem
+2. - [ ] Theme and color scheme
 3. - [ ] Design bg img for landing page
 4. - [ ] Design main bg of site
 
