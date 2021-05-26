@@ -114,8 +114,3 @@ dmypy.json
 .pyre/
 /Pipfile
 /Pipfile.lock
-.idea/inspectionProfiles/profiles_settings.xml
-.idea/MDM_dev.iml
-.idea/misc.xml
-.idea/modules.xml
-.idea/vcs.xml
