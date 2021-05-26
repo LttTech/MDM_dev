@@ -21,6 +21,7 @@ from django.conf.urls.static import static
 from MDMusers import views as MDMusers_views
 
 urlpatterns = [
+    path('editProfile/', MDMusers_views.editProfile, name = 'edit_profile'),
     path('admin/', admin.site.urls),
     path('register/', MDMusers_views.register, name='register'),
     path('profile/', MDMusers_views.profile, name='profile'),

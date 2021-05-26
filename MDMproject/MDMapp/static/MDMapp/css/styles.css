@@ -4803,6 +4803,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   margin-bottom: 1rem;
   border: 1px solid transparent;
   border-radius: 0.25rem;
+  text-align: justify;
 }
 
 .alert-heading {
@@ -9839,6 +9840,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .text-muted {
   color: #6c757d !important;
+  text-align: justify;
 }
 
 .text-black-50 {

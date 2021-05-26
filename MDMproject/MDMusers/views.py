@@ -40,3 +40,26 @@ def profile(request):
     }
 
     return render(request, 'MDMusers/profile.html', context)
+
+def editProfile(request):
+    if request.method == 'POST':
+        u_form = UserUpdateForm(request.POST, instance=request.user)
+        
+        if u_form.is_valid():
+            u_form.save()
+            
+            messages.success(request, f'Your account has been updated!')
+            return redirect('profile')
+
+    else:
+        u_form = UserUpdateForm(instance=request.user)
+        
+
+    context = {
+        'u_form': u_form,
+        
+    }
+
+    return render(request, 'MDMusers/edit_profile.html', context)
+
+
